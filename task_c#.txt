@@ -1,0 +1,30 @@
+Console.WriteLine("Ededi daxil edin:");
+int num = Convert.ToInt32(Console.ReadLine());
+do
+{
+    if (num >= 10 && num <= 20)
+    {
+        Console.WriteLine("Sehvdir,Davam etmek isteyirsiz?");
+        string cavab = Console.ReadLine();
+        if (cavab == "Yes")
+        {
+            Console.WriteLine("Yes");
+        }
+        else
+        {
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("cut ededdir");
+
+            }
+            else
+            {
+
+                Console.WriteLine("tek ededdir");
+            }
+        }
+    }
+    else
+    { Console.WriteLine("eded verilen araliqdadir");
+
+	
